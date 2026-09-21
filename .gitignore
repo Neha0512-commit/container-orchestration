@@ -54,3 +54,11 @@ node_modules/ # Covers cases where node_modules might be at project root
 /frontend/env
 
 
+.env
+.env.*
+!.env.example
+
+my-credentials.json
+*.json
+*.pem
+*.key
